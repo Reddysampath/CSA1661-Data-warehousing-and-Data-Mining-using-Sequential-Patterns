@@ -1,0 +1,11 @@
+@relation University
+@attribute cid numeric
+@attribute course{maths,dwdm,python,science}
+@attribute students{sam,shiv,rakesh,prasad}
+@attribute professors string
+@attribute marks numeric
+@data
+1, maths, "sam", "Mary", 88
+2, maths, "shiv", "Rathod", 88
+3, dwdm, "rakesh", "John", 87
+4, python, "prasad", "Venkat", 85
